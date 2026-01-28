@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(46, 183, 246);
+    height: 80px;
+    display: flex;
+    padding-top: 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    
+}
+.buttons{
+    margin-left: 250px;
+    margin-top: 5px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+}
+.buttons button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+a:hover{
+    color: black;
+    transition: 0.3s;
+}
